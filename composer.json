@@ -1,8 +1,10 @@
 {
     "require": {
+        "fabpot/goutte" : "~1",
         "behat/behat": "~2.5",
-        "behat/mink": "1.*",
-        "behat/mink-extension": "*"
+        "behat/mink": "*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver": "*"
     },
     "config": {
         "bin-dir": "bin/"
