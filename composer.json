@@ -1,6 +1,8 @@
 {
     "require": {
-        "behat/behat": "~2.5"
+        "behat/behat": "~2.5",
+        "behat/mink": "1.*",
+        "behat/mink-extension": "*"
     },
     "config": {
         "bin-dir": "bin/"
