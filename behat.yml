@@ -4,4 +4,5 @@ default:
         bootstrap: %behat.paths.features%/bootstrap
     extensions:
         Behat\MinkExtension\Extension:
+            base_url: http://www.yahoo.co.jp/
             goutte: ~
