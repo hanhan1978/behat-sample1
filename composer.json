@@ -1,7 +1,6 @@
 {
     "require": {
-        "fabpot/goutte" : "~1",
-        "behat/behat": "~2.5",
+        "behat/behat": "~3.0.15",
         "behat/mink": "*",
         "behat/mink-extension": "*",
         "behat/mink-goutte-driver": "*"
