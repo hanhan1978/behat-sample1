@@ -1,13 +1,8 @@
-
 # language : en
-#
-#
-
-
 
 Feature: stock search
 
-  Scenario: List 2 files in a directory
+  Scenario: get stock code 
     Given I am on the homepage
     When I follow "ファイナンス"
     When I fill in "searchText" with "九州電力"
